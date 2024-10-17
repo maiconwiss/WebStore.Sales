@@ -11,8 +11,8 @@ namespace WebStore.Sales.Presentation.Api.Controllers
         private readonly ISaleService _saleService;
 
         public SalesController(ISaleService saleService)
-        {
-            _saleService = saleService;
+            {
+                _saleService = saleService;
         }
 
         [HttpGet]
